@@ -1,3 +1,60 @@
+/**
+ * Font-face definitions for AJA.
+ */
+
+ @font-face {
+	font-family: Al-Jazeera;
+	font-display: swap;
+	src:
+		local( "Al Jazeera-Light" ),
+		local( "Al-Jazeera-Light" ),
+		url( "./fonts/Al-Jazeera-Light.woff2" ) format( "woff2" ),
+		url( "./fonts/Al-Jazeera-Light.woff" ) format( "woff" ),
+		url( "./fonts/Al-Jazeera-Light.ttf" ) format( "truetype" );
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Al-Jazeera;
+	font-display: swap;
+	src:
+		local( "Al Jazeera-Regular" ),
+		local( "Al-Jazeera-Regular" ),
+		url( "./fonts/Al-Jazeera-Regular.woff2" ) format( "woff2" ),
+		url( "./fonts/Al-Jazeera-Regular.woff" ) format( "woff" ),
+		url( "./fonts/Al-Jazeera-Regular.ttf" ) format( "truetype" );
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Al-Jazeera;
+	font-display: swap;
+	src:
+		local( "Al Jazeera-Bold" ),
+		local( "Al-Jazeera-Bold" ),
+		url( "./fonts/Al-Jazeera-Bold.woff2" ) format( "woff2" ),
+		url( "./fonts/Al-Jazeera-Bold.woff" ) format( "woff" ),
+		url( "./fonts/Al-Jazeera-Bold.ttf" ) format( "truetype" );
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Al-Jazeera;
+	font-display: swap;
+	src:
+		local( "Al Jazeera-Heavy" ),
+		local( "Al-Jazeera-Heavy" ),
+		url( "./fonts/Al-Jazeera-Heavy.woff2" ) format( "woff2" ),
+		url( "./fonts/Al-Jazeera-Heavy.woff" ) format( "woff" ),
+		url( "./fonts/Al-Jazeera-Heavy.ttf" ) format( "truetype" );
+	font-weight: 900;
+	font-style: normal;
+}
+
+
 body {
   margin: 0;
   padding: 0;
@@ -12,3 +69,5 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
